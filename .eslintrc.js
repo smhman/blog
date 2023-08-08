@@ -43,9 +43,8 @@ module.exports = {
 		'@typescript-eslint/indent': 'off',
 		'jsx-quotes': 'off',
 		"indent": [2, "tab", { "SwitchCase": 1, "VariableDeclarator": 1 }],
-        "no-tabs": 0,
-        "react/prop-types": 0,
-        "react/jsx-indent": [2, "tab"],
-        "react/jsx-indent-props": [2, "tab"],
+        "react/prop-types": "off",
+        "react/jsx-indent": "off",
+        "react/jsx-indent-props": "off",
 	},
 };
