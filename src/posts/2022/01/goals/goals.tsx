@@ -6,8 +6,13 @@ export class Goals extends Post {
 	public date = new Date('2 January 2022');
 	public slug = 'goals';
 	public keywords = ['goals', '2022'];
+<<<<<<< HEAD
 
 	public excerpt = stripIndents`
+=======
+	public hidden = false;
+	public excerpt = stripIndents`	
+>>>>>>> parent of d397988 (new post)
         My goals for the year
     `;
 
@@ -35,7 +40,10 @@ export class Goals extends Post {
 					<li>start a passive income stream, but idea for this is tbc</li>
 					<li>work outside of my bedroom where possible</li>
 					<li>maintain this blog, maybe a new post once or twice a month</li>
+<<<<<<< HEAD
 					<li className="line-through">continue evading my taxes 😎</li>
+=======
+>>>>>>> parent of d397988 (new post)
 				</ul>
 			</>
 		);
