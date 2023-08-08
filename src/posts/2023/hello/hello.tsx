@@ -12,7 +12,7 @@ export class Hello extends Post {
         Hi!
     `;
 
-	render() {
+	public render(): JSX.Element {
 		return (
 			<>
                 <h1>Hello, world!</h1>
