@@ -1,6 +1,6 @@
 import {PageConfig} from 'next';
 import Link from 'next/link';
-import  ReactNode} from 'react';
+import {ReactNode} from 'react';
 import {posts} from '../posts';
 
 // Sweet zero js 🤑
@@ -12,7 +12,7 @@ export const config: PageConfig = {
 	return (
 	  <main className="space-y-8">
 		<h2>
-		  <span>alistair.blog</span>{' '}
+		  <span>sundei.blog</span>{' '}
 		  <a
 			target="_blank"
 			href="https://github.com/smhman/blog"
