@@ -1,6 +1,6 @@
-import { stripIndents } from 'common-tags';
-import { ExternalLink } from '../../../client/components/external-link';
-import { Post } from '../../Post';
+import {stripIndents} from 'common-tags';
+import {ExternalLink} from '../../../client/components/external-link';
+import {Post} from '../../Post';
 
 export class WTFESM extends Post {
     public name = 'Hello, world';
