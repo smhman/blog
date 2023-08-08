@@ -1,5 +1,5 @@
 import type {NextApiHandler} from 'next';
-import type {RESTGetAPIUserResult} from 'discord-api-types/v8';
+import type {RESTGetAPIUserResult} from 'discord-api-types/v10';
 import {serialize} from 'cookie';
 import {sign} from 'jsonwebtoken';
 import dayjs from 'dayjs';
@@ -8,13 +8,7 @@ import axios from 'axios';
 import {env} from '../../server/constants';
 
 // Configuration constants
-const {CLIENT_ID, CLIENT_SECRET, JWT_SECRET} = env;
-
-// The URL that we will redirect to
-// note: this should be an environment variable
-// but I'll cover that in part 2 since
-// it will work fine locally for the time being
-const REDIRECT_URI = 'http://localhost:3000/api/oauth';
+const {CLIENT_ID, CLIENT_SECRET, JWT_SECRET, REDIRECT_URI} = env;
 
 // Scopes we want to be able to access as a user
 const scope = ['identify'].join(' ');
@@ -67,7 +61,7 @@ function getCookieHeader(token: string) {
 	});
 }
 
-const handler: NextApiHandler = async (req, res) => {
+const handler: NextApiHandler<never> = async (req, res) => {
 	// Find our callback code from req.query
 	const {code = null} = req.query as {code?: string};
 
