@@ -1,7 +1,7 @@
-import { PageConfig } from 'next';
+import {PageConfig} from 'next';
 import Link from 'next/link';
-import { ReactNode } from 'react';
-import { posts } from '../posts';
+import  ReactNode} from 'react';
+import {posts} from '../posts';
 
 // Sweet zero js 🤑
 export const config: PageConfig = {
