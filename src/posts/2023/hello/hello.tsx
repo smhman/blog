@@ -2,7 +2,7 @@ import {stripIndents} from 'common-tags';
 import {Post} from '../../../Post';
 import {ExternalLink} from '../../../client/components/external-link';
 
-export class Hello-World extends Post {
+export class Hello extends Post {
 	public name = 'Hello, world';
 	public date = new Date('2023-08-08');
 	public slug = 'goals';

@@ -13,7 +13,7 @@ export default function Home() {
 	return (
 		<main className="space-y-8">
 			<h2>
-				<span>sundei.blog</span>{' '}
+				<span>alistair.blog</span>{' '}
 				<a
 					target="_blank"
 					href="https://github.com/alii/blog"

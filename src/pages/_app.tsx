@@ -27,7 +27,7 @@ export default function App({Component, pageProps, router}: AppProps) {
 						<span className="text-neutral-400 dark:text-neutral-700">•</span>
 
 						<ExternalLink href="https://crystalps.eu" className={footerLink}>
-							My Game Server
+							Crystal PS
 						</ExternalLink>
 					</p>
 				</footer>

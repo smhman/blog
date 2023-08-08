@@ -1,21 +1,7 @@
-import {Goals} from './2022/01/goals/goals';
-import {Mochip} from './2022/01/mochip/mochip';
-import {ServerlessDiscordOAuth} from './2022/01/serverless-discord-oauth/serverless-discord-oauth';
-import {ZeroKbBlog} from './2022/01/zero-kb-blog/zero-kb-blog';
-import {OpenSource} from './2022/03/open-source/open-source';
-import {ServerlessOAuthPart2} from './2022/05/serverless-oauth-pt2/serverless-oauth-pt2';
-import {StrictTSConfig} from './2022/08/strict-tsconfig/strict-tsconfig';
-import {WTFESM} from './2023/wtf-esm/wtf-esm';
+import {Hello} from './2023/hello/hello';
 
 export const posts = [
-	new WTFESM(),
-	new ServerlessOAuthPart2(),
-	new OpenSource(),
-	new Mochip(),
-	new ZeroKbBlog(),
-	new ServerlessDiscordOAuth(),
-	new Goals(),
-	new StrictTSConfig(),
+	new Hello(),
 ] as const;
 
 export function sortPosts(p: typeof posts) {
