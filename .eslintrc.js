@@ -47,6 +47,7 @@ module.exports = {
         "react/prop-types": "off",
         "react/jsx-indent": "off",
 		"react/jsx-closing-tag-location": "off",
+		"no-trailing-spaces": "off",
         "react/jsx-indent-props": "off",
 	},
 };
