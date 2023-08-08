@@ -1,5 +1,5 @@
 import {stripIndents} from 'common-tags';
-import {Post} from '../../../Post';
+import {Post} from '../../Post';
 import {ExternalLink} from '../../../client/components/external-link';
 
 export class Hello extends Post {
