@@ -1,20 +1,19 @@
-import {stripIndent} from 'common-tags';
+import {stripIndents} from 'common-tags';
 import {ExternalLink} from '../../../client/components/external-link';
-import {Highlighter} from '../../../client/components/highlighter';
-import {Note} from '../../../client/components/note';
 import {Post} from '../../Post';
 
 export class WTFESM extends Post {
 	public name = 'Hello, world';
 	public slug = 'hello-world';
 	public date = new Date('2023-08-08');
-	public hidden = true;
-	public excerpt =
-		'Allow me to introduce myself. I go by the name sundei, a 17-year-old student currently enrolled at Tartu Vocational College...';
+	public hidden = false;
+	public excerpt = stripIndents`	
+        Hello! This is my new blog
+    `;
 
 	public keywords = ['hello', 'sundei', 'eurovision', 'alika', 'käärijä', 'joker-out', 'friends'];
 
-	public render(): JSX.Element {
+	render() {
 		return (
 			<>
                 <h1>Hello, world!</h1>
