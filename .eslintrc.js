@@ -46,6 +46,7 @@ module.exports = {
 		"eol-last": "off",
         "react/prop-types": "off",
         "react/jsx-indent": "off",
+		"react/jsx-closing-tag-location": "off",
         "react/jsx-indent-props": "off",
 	},
 };
