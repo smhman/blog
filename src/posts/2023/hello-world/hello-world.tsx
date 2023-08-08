@@ -1,21 +1,20 @@
 import {stripIndents} from 'common-tags';
+import {Post} from '../../../Post';
 import {ExternalLink} from '../../../client/components/external-link';
-import {Post} from '../../Post';
 
-export class WTFESM extends Post {
-    public name = 'Hello, world';
-    public slug = 'hello-world';
-    public date = new Date('2023-08-08');
-    public hidden = false;
-    public excerpt = stripIndents`
-        Hello! This is my new blog
+export class Hello-World extends Post {
+	public name = 'Hello, world';
+	public date = new Date('2023-08-08');
+	public slug = 'goals';
+	public keywords = ['hello', 'sundei', 'eurovision', 'alika', 'käärijä', 'joker-out', 'friends'];
+	public hidden = false;
+	public excerpt = stripIndents`	
+        Hi!
     `;
 
-    public keywords = ['hello', 'sundei', 'eurovision', 'alika', 'käärijä', 'joker-out', 'friends'];
-
-    render() {
-        return (
-            <>
+	render() {
+		return (
+			<>
                 <h1>Hello, world!</h1>
 
                 <p>
@@ -81,6 +80,6 @@ export class WTFESM extends Post {
                     ~ sundei
                 </p>
             </>
-        );
-    }
+		);
+	}
 }
