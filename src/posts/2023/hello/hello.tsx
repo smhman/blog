@@ -5,7 +5,7 @@ import {ExternalLink} from '../../../client/components/external-link';
 export class Hello extends Post {
 	public name = 'Hello, world';
 	public date = new Date('2023-08-08');
-	public slug = 'goals';
+	public slug = 'hello-world';
 	public keywords = ['hello', 'sundei', 'eurovision', 'alika', 'käärijä', 'joker-out', 'friends'];
 	public hidden = false;
 	public excerpt = stripIndents`	
@@ -63,17 +63,13 @@ export class Hello extends Post {
                 </p>
                 <h3>My special thanks</h3>
                 <p>
-                    I am deeply grateful and feel compelled to express my heartfelt appreciation to a remarkable group of individuals who have played an essential role in guiding me through the intricate challenges that unfolded throughout this year. Among these outstanding individuals are Kasvi, Steph, Marie, GV, aapeh, Suomi, and several cherished friends from the realm of real life.
-                    Their unwavering support, encouragement, and camaraderie have been a beacon of light during moments when the path seemed obscured by shadows.
-                    It is particularly noteworthy that some of these connections were forged later in the year, which only underscores the profound impact their presence has had on my well-being and journey.
-                    As I reflect upon the shared experiences, shared laughter, and the solace they offered in times of distress, I am reminded of the deep-seated bond that has been cultivated.
-                    Their collective empathy and willingness to stand by me during moments of vulnerability serve as a testament to the power of human connection.
-                    In a world that can often feel fragmented and distant, the steadfast support of these remarkable individuals has illuminated the potential for meaningful relationships to flourish, even in the face of adversity.
-                    Their kindness, understanding, and genuine care have not only provided solace during trying times but have also enriched my life in immeasurable ways.
-                    As I look back upon the year and contemplate the challenges that were surmounted, I am acutely aware that it is the presence of these exceptional individuals that has made all the difference.
-                    Their selflessness, empathy, and willingness to lend an ear or offer a helping hand have undoubtedly altered the trajectory of my experiences, transforming difficult moments into opportunities for growth and resilience.
-                    In closing, my gratitude knows no bounds. To Kasvi, Steph, Marie, GV, aapeh, Suomi, and the dear friends who have stood by me, whether from the beginning of the year or later, your impact is immeasurable.
-                    Your unwavering support has been a source of strength, inspiration, and comfort, and for that, I am eternally thankful.
+                I'm immensely grateful to a remarkable group including Kasvi, Steph, Marie, GV, aapeh, Suomi, and dear friends. 
+                Their unwavering support and camaraderie have illuminated my path through challenges. 
+                Their empathy and kindness, whether established early or later in the year, have profoundly impacted me.
+                Through shared moments and their caring presence, they've shown the strength of human connection. 
+                In a world often distant, their support demonstrates the potential for meaningful relationships to flourish.
+                Their selflessness has turned difficulties into growth opportunities. To Kasvi, Steph, Marie, GV, aapeh, Suomi, and my steadfast friends, your impact is 
+                immeasurable. Your unwavering support has been a source of strength, inspiration, and comfort, and for that, I am forever grateful.
                 </p>
                 <p>
                     Thank you all and see you in the next blog

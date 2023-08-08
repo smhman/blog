@@ -13,10 +13,10 @@ export default function Home() {
 	return (
 		<main className="space-y-8">
 			<h2>
-				<span>alistair.blog</span>{' '}
+				<span>sundei's blogs</span>{' '}
 				<a
 					target="_blank"
-					href="https://github.com/alii/blog"
+					href="https://github.com/smhman/blog"
 					className="text-neutral-500 hover:text-blue-500"
 					rel="noreferrer"
 				>
