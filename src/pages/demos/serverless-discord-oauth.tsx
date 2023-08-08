@@ -1,12 +1,12 @@
-import type {APIUser} from 'discord-api-types/v10';
+import {APIUser} from 'discord-api-types/v8';
 import {verify} from 'jsonwebtoken';
-import type {GetServerSideProps, PageConfig} from 'next';
+import {GetServerSideProps, PageConfig} from 'next';
 import Link from 'next/link';
 import {env} from '../../server/constants';
 
-type Props = {
+interface Props {
 	user: APIUser | undefined;
-};
+}
 
 export const config: PageConfig = {
 	unstable_runtimeJS: false,

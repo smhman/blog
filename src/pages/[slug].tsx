@@ -1,4 +1,4 @@
-import type {GetStaticPaths, GetStaticProps, PageConfig} from 'next';
+import {GetStaticPaths, GetStaticProps, PageConfig} from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 import {posts} from '../posts';
@@ -7,9 +7,9 @@ export const config: PageConfig = {
 	unstable_runtimeJS: false,
 };
 
-type Props = {
+interface Props {
 	slug: string;
-};
+}
 
 export default function PostPage({slug}: Props) {
 	const post = posts.find(post => post.slug === slug)!;
@@ -20,28 +20,20 @@ export default function PostPage({slug}: Props) {
 				<title>{post.name}</title>
 				<meta name="description" content={post.excerpt} />
 				<meta name="keywords" content={post.keywords.join(', ')} />
-				<meta name="theme-color" content={post.hidden ? '#ebb305' : '#171717'} />
+				<meta name="theme-color" content="#101827" />
 			</Head>
 
-			{post.hidden && (
-				<div className="bg-yellow-500 text-yellow-900 rounded-md py-2 px-4">
-					<p>Hey! This post is hidden! Please don't share the link for now...</p>
-				</div>
-			)}
-
-			<div>
-				<Link href="/">
-					<a className="text-blue-500 dark:text-neutral-400 hover:text-blue-800 dark:hover:text-neutral-600">
-						../
-					</a>
-				</Link>
-			</div>
+			<Link href="../">
+				<a className="text-blue-500 dark:text-neutral-400 hover:text-blue-800 dark:hover:text-neutral-600">
+					../
+				</a>
+			</Link>
 
 			<p>
 				<time dateTime={post.date.toISOString()}>{post.date.toDateString()}</time>
 			</p>
 
-			<main className="prose prose-hr:border-neutral-200 dark:prose-hr:border-neutral-800 prose-blue prose-img:rounded-md prose-img:w-full dark:prose-invert">
+			<main className="prose max-w-none prose-blue prose-img:rounded-md prose-img:w-full dark:prose-invert">
 				{post.render()}
 			</main>
 		</div>

@@ -1,19 +1,9 @@
-import {WTFESM} from './2023/hello-world/hello-world';
+import {ensure} from '../types';
+import {Post} from './Post';
 
-export const posts = [
-	new WTFESM(),
-] as const;
+import {Goals} from './2022/01/goals/goals';
+import {ServerlessDiscordOAuth} from './2022/01/serverless-discord-oauth/serverless-discord-oauth';
 
-export function sortPosts(p: typeof posts) {
-	return [...p].sort((a, b) => {
-		if (a.date > b.date) {
-			return -1;
-		}
+const ensurePosts = ensure<Post[]>();
 
-		if (a.date < b.date) {
-			return 1;
-		}
-
-		return 0;
-	});
-}
+export const posts = ensurePosts([new ServerlessDiscordOAuth(), new Goals()]);
