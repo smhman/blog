@@ -60,8 +60,6 @@ export class WTFESM extends Post {
 				Despite the difficulties (and getting expelled), I did make a lot of new friends along the way.
 					
 				</p>
-
-				</ol>
 			</>
 		);
 	}
