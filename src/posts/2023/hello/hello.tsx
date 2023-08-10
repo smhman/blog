@@ -63,12 +63,12 @@ export class Hello extends Post {
                 </p>
                 <h3>My special thanks</h3>
                 <p>
-                I'm immensely grateful to a remarkable group including Kasvi, Steph, Marie, GV, aapeh, Suomi, and dear friends. 
+                I'm immensely grateful to a remarkable group including Kasvi, Steph, Marie, Play (Time), GV, aapeh, Suomi, and dear friends. 
                 Their unwavering support and camaraderie have illuminated my path through challenges. 
                 Their empathy and kindness, whether established early or later in the year, have profoundly impacted me.
                 Through shared moments and their caring presence, they've shown the strength of human connection. 
                 In a world often distant, their support demonstrates the potential for meaningful relationships to flourish.
-                Their selflessness has turned difficulties into growth opportunities. To Kasvi, Steph, Marie, GV, aapeh, Suomi, and my steadfast friends, your impact is 
+                Their selflessness has turned difficulties into growth opportunities. To Kasvi, Steph, Marie, Play (Time), GV, aapeh, Suomi, and my steadfast friends, your impact is 
                 immeasurable. Your unwavering support has been a source of strength, inspiration, and comfort, and for that, I am forever grateful.
                 </p>
                 <p>

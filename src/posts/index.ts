@@ -1,7 +1,9 @@
 import {Hello} from './2023/hello/hello';
+import {Growtopia} from './2023/growtopia/growtopia';
 
 export const posts = [
 	new Hello(),
+	new Growtopia(),
 ] as const;
 
 export function sortPosts(p: typeof posts) {
