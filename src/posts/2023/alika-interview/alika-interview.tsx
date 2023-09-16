@@ -55,7 +55,6 @@ export class Alika extends Post {
                 <p>A: Well, until now, some people still keep asking "This year as well?". I look at it and think, why do you have this question on your mind. I would really like to do that one more time. But maybe in 4-5 years, as this is a nice time to do it. If song and feeling is good. Well, if everything is good, then why not.
 
                 <p>*Alika plays "Bridges" on piano*</p>
-                </p>
             </>
 		);
 	}
