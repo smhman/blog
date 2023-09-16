@@ -5,7 +5,7 @@ import {ExternalLink} from '../../../client/components/external-link';
 export class Alika extends Post {
 	public name = 'Alika \'s interview at Ringvaade';
 	public date = new Date('2023-09-16');
-	public slug = 'growtopia';
+	public slug = 'alika-interview';
 	public keywords = ['alika', 'eurovision', 'ringvaade'];
 	public hidden = false;
 	public excerpt = stripIndents`	
