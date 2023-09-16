@@ -38,7 +38,7 @@ export class Alika extends Post {
                 <p>A: Yes.</p>
                 <p>H: But... </p>
                 <p>A: But...</p>
-                <p>H: Alika hasn't contributed to that label. I understood, that we got the permission... I will give you marker. Maybe, you can put some signature there. I don't know, is it good. Nevermind...
+                <p>H: Alika hasn't contributed to that label. I understood, that we got the permission... I will give you marker. Maybe, you can put some signature there. I don't know, is it good. Nevermind...</p>
                 <p>A: Yeah, in my opinion, it is pretty good. They have thought of that.</p>
                 <p>(Alika proceeds to sign)</p>
                 <p>A: Atleast it came out just fine.</p>
@@ -49,12 +49,12 @@ export class Alika extends Post {
                 <p>A: That maybe someone put some stain there.</p>
                 <p>H: Well, now every Eurovision fan, who will arrive there, can see that with their own eyes.</p>
                 <p>A: Very beautiful. I have a very proud feeling.</p>
-                <p>H: How has your life been after Eurovision? It seems, that you had a pretty busy summer with huge performances etc...
-                <p>A: Yeah, it was a pretty busy summer. Somehow it all went just bigger and busier with every month and week. Well, at the last 2 weeks of August, it was just like I had something every day or there was.. I dont know. Poland, Finland, whereever... Concerts. At 31st of August, I felt like aaaahhh... again... Well, honestly, there were 1st, 2nd and 3rd of September aswell... Then at 3rd of September, I felt like tuff tuff tuff... It was like kind of a full workload. Well, at the same time, when I would say to other person "ahh I am so tired, I went to radio to have some interview"... (laughs) What? That, that I personally still enjoy it. But, still... a human is a human, if person will be tired. Well, right now, I am trying to spend more time with my family. And then there's the album. At the 24th of November. It will release then. That is aswell a pretty surreal moment. I have dreamt and thought of it for my entire life... Thought of some names, wrote them down to diaries, when I was 9 years old. And finally, it will come out. 
+                <p>H: How has your life been after Eurovision? It seems, that you had a pretty busy summer with huge performances etc...</p>
+                <p>A: Yeah, it was a pretty busy summer. Somehow it all went just bigger and busier with every month and week. Well, at the last 2 weeks of August, it was just like I had something every day or there was.. I dont know. Poland, Finland, whereever... Concerts. At 31st of August, I felt like aaaahhh... again... Well, honestly, there were 1st, 2nd and 3rd of September aswell... Then at 3rd of September, I felt like tuff tuff tuff... It was like kind of a full workload. Well, at the same time, when I would say to other person "ahh I am so tired, I went to radio to have some interview"... (laughs) What? That, that I personally still enjoy it. But, still... a human is a human, if person will be tired. Well, right now, I am trying to spend more time with my family. And then there's the album. At the 24th of November. It will release then. That is aswell a pretty surreal moment. I have dreamt and thought of it for my entire life... Thought of some names, wrote them down to diaries, when I was 9 years old. And finally, it will come out.</p>
                 <p>H: Eesti Laul will come every year. I guess you're not going back there yet? You have this "snowball" rolling from last year.</p>
-                <p>A: Well, until now, some people still keep asking "This year as well?". I look at it and think, why do you have this question on your mind. I would really like to do that one more time. But maybe in 4-5 years, as this is a nice time to do it. If song and feeling is good. Well, if everything is good, then why not.
-
+                <p>A: Well, until now, some people still keep asking "This year as well?". I look at it and think, why do you have this question on your mind. I would really like to do that one more time. But maybe in 4-5 years, as this is a nice time to do it. If song and feeling is good. Well, if everything is good, then why not.</p>
                 <p>*Alika plays "Bridges" on piano*</p>
+                
             </>
 		);
 	}
