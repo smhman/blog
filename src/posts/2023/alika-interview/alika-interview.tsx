@@ -17,7 +17,9 @@ export class Alika extends Post {
 		return (
 			<>
                 <h1>Alika's interview at Ringvaade</h1>
-
+                <p>Interview link (in Estonian): "<ExternalLink href="https://menu.err.ee/1609102037/alika-toesti-sooviksin-veel-uhe-korra-eurovisioonil-kaia">Alika: tõesti sooviksin veel ühe korra Eurovisioonil käia
+</ExternalLink>"</p> 
+                <p>NB! This translate might have some small grammar mistakes.</p>
                 <p>
                 *some clip of Alika's Grand Final performance*
 H(Heleri - Interviewer): What's the first thing, that comes in your mind, if you think back to Eurovision? The process etc...
