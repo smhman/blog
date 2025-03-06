@@ -1,6 +1,7 @@
 import {stripIndents} from 'common-tags';
 import {Post} from '../../Post';
 import {ExternalLink} from '../../../client/components/external-link';
+import {Image} from '../../../client/components/image';
 import eurokas from './eurokas.png';
 import lugu from './track.png';
 
