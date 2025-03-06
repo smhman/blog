@@ -77,10 +77,9 @@ export class LifeUpdates extends Post {
                         frameBorder="0"
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         loading="lazy"
-                        sandbox="allow-scripts allow-same-origin allow-popups"
+                        sandbox="allow-scripts allow-popups"
                     />
                 </div>
-
 
                 <p>
                     That’s all for now! Thanks for reading, and I hope to share more updates soon.
