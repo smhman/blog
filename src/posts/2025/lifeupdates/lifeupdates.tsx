@@ -1,7 +1,6 @@
 import {stripIndents} from 'common-tags';
 import {Post} from '../../Post';
 import {ExternalLink} from '../../../client/components/external-link';
-import {Image} from '../../../client/components/image';
 import eurokas from './eurokas.png';
 import lugu from './track.png';
 
@@ -33,7 +32,7 @@ export class LifeUpdates extends Post {
                 </p>
 
                 <h3>Creative Work & Achievements</h3>
-                <Image src={eurokas.src} alt="Graphic design for 5MIINUST & Puuluup (Universal Music Estonia)" />
+                <img src={eurokas.src} alt="Graphic design for 5MIINUST & Puuluup (Universal Music Estonia)" />
                 <p>
                     I’ve been diving deeper into <b>graphic design</b>, working on projects like creating a design to 
                     encourage people to vote for <b>5MIINUST & Puuluup in Eurovision</b>. I also had the chance to <b>meet Alika</b> a few times and even attended 
@@ -60,7 +59,7 @@ export class LifeUpdates extends Post {
                     <ExternalLink href="https://open.spotify.com/track/2fKXhfkEyCp8eIF30ai8MI">Beyond Favourites - Spotify</ExternalLink>
                 </p>
                 
-                <Image src={lugu.src} alt="My first track on Spotify" />
+                <img src={lugu.src} alt="My first track on Spotify" />
 
                 <h3>Gratitude & Reflections</h3>
                 <p>
