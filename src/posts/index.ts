@@ -1,10 +1,10 @@
 import {Hello} from './2023/hello/hello';
-import {Growtopia} from './2023/growtopia/growtopia';
 import {Alika} from './2023/alika-interview/alika-interview';
+import {LifeUpdates} from './2025/lifeupdates/lifeupdates';
 
 export const posts = [
 	new Hello(),
-	new Growtopia(),
+	new LifeUpdates(),
 	new Alika(),
 ] as const;
 
