@@ -68,18 +68,19 @@ export class LifeUpdates extends Post {
                     Mostly I gotta thank <b>Aus/Auste</b>, because she has been here for me for quite a long time. She is just the best friend I could
                     ever ask for. Ačiū!
                 </p>
-                
-                <div style={{ margin: '20px 0' }}>
+                <div style={{margin: '20px 0'}}>
                     <iframe
-                        style={{ borderRadius: '12px' }}
+                        style={{borderRadius: '12px'}}
                         src="https://open.spotify.com/embed/track/1imPa2lzxmLKggLCpkBAoo?utm_source=generator"
                         width="100%"
                         height="152"
                         frameBorder="0"
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         loading="lazy"
-                    ></iframe>
+                        sandbox="allow-scripts allow-same-origin allow-popups"
+                    />
                 </div>
+
 
                 <p>
                     That’s all for now! Thanks for reading, and I hope to share more updates soon.
