@@ -65,7 +65,21 @@ export class LifeUpdates extends Post {
                 <p>
                     I want to take a moment to thank my <b>teachers</b>, who encouraged me to keep going, and my <b>friends</b>, who have motivated me 
                     to push through tough times. <b>Mental health is still a struggle for me</b>, but having a support system makes a big difference.
+                    Mostly I gotta thank <b>Aus/Auste</b>, because she has been here for me for quite a long time. She is just the best friend I could
+                    ever ask for. Ačiū!
                 </p>
+                
+                <div style={{ margin: '20px 0' }}>
+                    <iframe
+                        style={{ borderRadius: '12px' }}
+                        src="https://open.spotify.com/embed/track/1imPa2lzxmLKggLCpkBAoo?utm_source=generator"
+                        width="100%"
+                        height="152"
+                        frameBorder="0"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"
+                    ></iframe>
+                </div>
 
                 <p>
                     That’s all for now! Thanks for reading, and I hope to share more updates soon.
@@ -73,7 +87,7 @@ export class LifeUpdates extends Post {
 
                 <p>
                     Until next time, 
-                    <br/> <b>~ [Your Name / Blog Name]</b>
+                    <br/> <b>~ sundei</b>
                 </p>
             </>
         );
